@@ -47,7 +47,7 @@ main.locker {
 
 .locker-box h2 {
   font-size: 1.3rem;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .play-button {
@@ -65,10 +65,17 @@ main.locker {
   background-color: #e6b800;
 }
 
+.team-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 footer {
   background: #292929;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
   color: #888;
+}
 
