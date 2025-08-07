@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Football Locker Room</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏈 Football Locker Room</h1>
+    <p>Pick your game and hit the field!</p>
+  </header>
+
+  <main class="locker">
+    <div class="locker-box">
+      <h2>Retro Bowl</h2>
+      <a href="https://retrobowlgame.com/" target="_blank" class="play-button">Play Now</a>
+    </div>
+    <div class="locker-box">
+      <h2>Axis Football</h2>
+      <a href="https://www.crazygames.com/game/axis-football-league" target="_blank" class="play-button">Play Now</a>
+    </div>
+    <div class="locker-box">
+      <h2>Return Man 2</h2>
+      <a href="https://returnman3.com/return-man-2/" target="_blank" class="play-button">Play Now</a>
+    </div>
+    <div class="locker-box">
+      <h2>4th and Goal 2022</h2>
+      <a href="https://www.crazygames.com/game/4th-and-goal-2022" target="_blank" class="play-button">Play Now</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made by Jadon • © 2025</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #1c1c1c;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+  background: #292929;
+  border-bottom: 4px solid #ffcc00;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  color: #ccc;
+}
+
+main.locker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.locker-box {
+  background: #333;
+  border: 2px solid #ffcc00;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.2s;
+}
+
+.locker-box:hover {
+  transform: scale(1.05);
+}
+
+.locker-box h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.play-button {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.play-button:hover {
+  background-color: #e6b800;
+}
+
+footer {
+  background: #292929;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #888;
