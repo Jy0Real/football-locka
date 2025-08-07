@@ -58,7 +58,25 @@ header {
 .play-btn:hover {
   background: #e6b800;
 }
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/0/0e/NBA_logo.svg') no-repeat center center fixed;
+  background-size: 40%; /* Adjust size */
+  background-color: #000; /* fallback black background */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 0;
+}
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.75); /* dark overlay so content is visible */
+  z-index: -1;
+}
 
 
 
